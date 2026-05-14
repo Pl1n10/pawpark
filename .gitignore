@@ -24,3 +24,8 @@ node_modules/
 __pycache__/
 *.py[cod]
 .venv/
+
+# Minion: keep MINION.md, config.yaml, teacher-plan.md committed (they
+# are knowledge / config); ignore the volatile state and ephemeral briefs.
+.minion/state/
+.minion/briefs/
